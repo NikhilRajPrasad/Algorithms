@@ -1,7 +1,6 @@
 x= [x for x in range(1,27)]
 z="abcdefghijklmnopqrstuvwxyz"
 dic={z[i-1]:x[i-1] for i in range(1,27)}
-
 def inp():
 	s=input()
 	if(len(s)<=10):
